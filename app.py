@@ -1,5 +1,5 @@
 import streamlit as st
-from pages import home, chat, support
+from views import home, chat, support  # Changed from "pages" to "views"
 from debug_utils import run_diagnostics
 
 # --- Page Configuration ---
